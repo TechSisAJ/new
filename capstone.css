@@ -17,7 +17,7 @@ header{
     position: absolute;
     top: 0%;
     left: 0%;
-    width: 100%;
+    width: 100vw;
     padding: 30px 100px;
     display: flex;
     justify-content: space-between;
@@ -172,6 +172,14 @@ header{
         left: 0%;
         width: 100vw;
         margin-left: 0%;
-        pointer-events: none;
-    
+        pointer-events: none;}
+    .navigator a {
+    color: #f1f1f1;
+    margin-left: 0px;
+    margin-top: 1000px;
+    padding: 6px 15px;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 30px; 
+   }
     }
