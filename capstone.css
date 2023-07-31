@@ -76,6 +76,7 @@ header{
     padding: 100px;
     background: #086910;
     width: 100%;
+    color: white;
 }
 .sec h1 {
     font-size: 3em;
@@ -127,6 +128,7 @@ header{
     .google-map {
         padding-bottom: 50%;
         position: relative;
+        width: 100%;
    }
    
    .google-map iframe {
