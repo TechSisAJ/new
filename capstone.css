@@ -40,7 +40,7 @@ header{
     text-decoration: none;
     font-weight: 600;
     border-radius: 30px;
-    
+    width: 100%;
   }
 .navigator a:hover,
 .navigator a.active{
@@ -53,9 +53,9 @@ header{
 
 .Picture{
     position: relative;
-    display: block;
+    display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: centre;
     height: 100vh;
     width: 100vw;
 }
@@ -148,7 +148,7 @@ header{
         .sec{
         padding: 48px;
         background: #086910;
-        width
+        width: 100%;
     }
     .sec h1 {
         font-size: 1.5em;
@@ -167,13 +167,14 @@ header{
         justify-content: center;
         align-items: center;
         height: 100vh;
+        width: 100%;
     }
     .Picture img{
         position: absolute;
         top: 0%;
         bottom: 0px;
         left: 0%;
-        width: 100vw;
+        width: 100%;
         margin-left: 0%;
         pointer-events: none;}
     .navigator a {
@@ -184,5 +185,6 @@ header{
     text-decoration: none;
     font-weight: 600;
     border-radius: 30px; 
+    width: 100%;
    }
     }
