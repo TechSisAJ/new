@@ -34,7 +34,7 @@ header{
 
 .navigator a {
     color: #f1f1f1;
-    margin-left: 0px;
+    margin-left: 0;
     margin-top: 1000px;
     padding: 6px 15px;
     text-decoration: none;
@@ -175,7 +175,7 @@ header{
         pointer-events: none;}
     .navigator a {
     color: #f1f1f1;
-    margin-left: 0px;
+    margin-left: 0.05px;
     margin-top: 1000px;
     padding: 6px 15px;
     text-decoration: none;
