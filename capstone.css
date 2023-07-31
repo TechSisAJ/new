@@ -58,6 +58,7 @@ header{
     align-items: centre;
     height: 100vh;
     width: 100vw;
+    colour: white;
 }
 
 .Picture img{
