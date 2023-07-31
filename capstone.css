@@ -8,8 +8,8 @@
 }
 body{
     background:  #086910;
-    min-height: 100vh;
-    min-width: 100vw;
+    height: 100vh;
+    width: 100vw;
     /*overflow: hidden;*/
 }
 
@@ -53,10 +53,11 @@ header{
 
 .Picture{
     position: relative;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    width: 100vw;
 }
 
 .Picture img{
@@ -73,6 +74,7 @@ header{
     position: relative;
     padding: 100px;
     background: #086910;
+    width: 100%;
 }
 .sec h1 {
     font-size: 3em;
@@ -146,6 +148,7 @@ header{
         .sec{
         padding: 48px;
         background: #086910;
+        width
     }
     .sec h1 {
         font-size: 1.5em;
@@ -160,7 +163,7 @@ header{
     }
     .Picture{
         position: relative;
-        display: flex;
+        display: block ;
         justify-content: center;
         align-items: center;
         height: 100vh;
