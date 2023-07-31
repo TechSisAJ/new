@@ -152,6 +152,7 @@ header{
         padding: 48px;
         background: #086910;
         width: 100%;
+        color: white;
     }
     .sec h1 {
         font-size: 1.5em;
@@ -179,10 +180,12 @@ header{
         left: 0%;
         width: 100%;
         margin-left: 0%;
-        pointer-events: none;}
+        pointer-events: none;
+        color: white;
+    }
     .navigator a {
     color: #f1f1f1;
-    margin-left: 0.05px;
+    margin-left: 0.0005px;
     margin-top: 1000px;
     padding: 6px 15px;
     text-decoration: none;
