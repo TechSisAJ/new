@@ -146,6 +146,10 @@ header{
    .service h1, p{
     color: #086910;;
    }
+.button{
+    width: 100% !important;
+    padding: 10px;
+}
    /* Responsive layout */
 @media screen and (max-width: 600px){
         .sec{
