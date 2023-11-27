@@ -1,31 +1,32 @@
-*{
-    margin-top: 0.5%;
-    margin-right: 0%;
-    margin-left: 0%;
-    padding: 0%;
+/* Reset and global styles */
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
 }
-body{
-    background:  #086910;
+
+body {
+    background: #086910;
     height: 100vh;
     width: 100vw;
-    /*overflow: hidden;*/
 }
 
-header{
+/* Header styles */
+header {
     position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 100vw;
-    padding: 30px 100px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 10%;
     display: flex;
     justify-content: space-between;
-    align-self: center;
+    align-items: center;
     z-index: 100;
 }
 
-.Name{
+/* Navigation styles */
+.Name {
     color: white;
     font-size: 2.5em;
     cursor: default;
@@ -34,168 +35,126 @@ header{
 
 .navigator a {
     color: #f1f1f1;
-    margin-left: 0;
-    margin-top: 1000px;
     padding: 6px 15px;
     text-decoration: none;
     font-weight: 600;
     border-radius: 30px;
-    width: 100%;
-  }
+}
+
 .navigator a:hover,
-.navigator a.active{
+.navigator a.active {
     background: white;
     color: #086910;
 }
-.navigator a.active{
-    color:#086910;
+
+.navigator {
+    display: flex;
 }
 
-.Picture{
-    position: relative;
+/* Picture section styles */
+.Picture {
     display: flex;
     justify-content: center;
-    align-items: centre;
+    align-items: center;
     height: 100vh;
-    width: 100vw;
-    colour: white;
-}
-
-.Picture img{
-    position: absolute;
-    top: 0%;
-    bottom: 0px;
-    left: 0%;
-    width: 100%;
-    margin-left: 0%;
-    pointer-events: none;
-
-}
-.sec{
-    position: relative;
-    padding: 100px;
-    background: #086910;
     width: 100%;
     color: white;
+    position: relative;
 }
+
+.Picture img {
+    width: 100%;
+    height: auto;
+}
+
+/* Section styles */
+.sec {
+    padding: 100px 10%;
+    background: #086910;
+    color: white;
+}
+
 .sec h1 {
     font-size: 3em;
-    color: white;
     margin-bottom: 10px;
 }
+
 .sec p {
     font-size: 2em;
-    color:  white;
     font-weight: 300;
-    margin-left: 0%;
 }
+
+/* Footer styles */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: #086910;
+    text-align: center;
+}
+
+/* Social media icons */
 .fa {
     padding: 20px;
-    font-size: 100px;
+    font-size: 50px;
     width: 50px;
     text-align: center;
     text-decoration: none;
-  }
-  
- 
+}
 
-  /* Add a hover effect if you want */
-  .fa:hover {
+.fa:hover {
     opacity: 0.7;
-  }
-  
-  /* Set a specific color for each brand */
-  
-  .fa-instagram {
+}
+
+.fa-instagram {
     background: #881261;
     color: white;
-  }
-  
-  
-  .fa-twitter {
+}
+
+.fa-twitter {
     background: #55ACEE;
     color: white;
-  }
-  .fa-linkedin {
+}
+
+.fa-linkedin {
     background: #007bb5;
     color: white;
-  }
-  .service{
-        background: white;
-        min-height: 100vh;
-        /*overflow: hidden;*/
-    }
-    .google-map {
-        padding-bottom: 50%;
-        position: relative;
-        width: 100%;
-   }
-   
-   .google-map iframe {
-        height: 100%;
-        width: 100%;
-        left: 0;
-        top: 0;
-        position: absolute;
-   }
-   .complaint{
-    font-weight: 300;
-    margin-left: 0%;
-   }
-  
-   .service h1, p{
-    color: #086910;;
-   }
-.button{
-    width: 100% !important;
-    padding: 10px;
 }
-   /* Responsive layout */
-@media screen and (max-width: 600px){
-        .sec{
-        padding: 48px;
-        background: #086910;
-        width: 100%;
-        color: white;
+
+/* Responsive layout */
+@media screen and (max-width: 600px) {
+    header {
+        padding: 20px 5%;
     }
+
+    .Name {
+        font-size: 2em;
+    }
+
+    .navigator a {
+        padding: 6px 10px;
+    }
+
+    .Picture {
+        height: 70vh;
+    }
+
+    .sec {
+        padding: 48px 5%;
+    }
+
     .sec h1 {
         font-size: 1.5em;
-        color: white;
-        margin-bottom: 10px;
     }
+
     .sec p {
         font-size: 1em;
-        color:  white;
-        font-weight: 300;
-        margin-left: 0%;
     }
-    .Picture{
-        position: relative;
-        display: block ;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        width: 100%;
+
+    .fa {
+        font-size: 30px;
+        padding: 10px;
     }
-    .Picture img{
-        position: absolute;
-        top: 0%;
-        bottom: 0px;
-        left: 0%;
-        width: 100%;
-        margin-left: 0%;
-        pointer-events: none;
-        color: white;
-    }
-    .navigator a {
-    color: #f1f1f1;
-    margin-left: 0px;
-    margin-top: 1000px;
-    padding: 6px 15px;
-    text-decoration: none;
-    font-weight: 600;
-    border-radius: 30px; 
-    width: 100%;
-    margin-right: 10px;
-   }
-    }
+}
