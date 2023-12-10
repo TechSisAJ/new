@@ -1,32 +1,44 @@
 
-  function geoFindMe() {
-    const status = document.querySelector("#status");
-    const mapLink = document.querySelector("#map-link");
+//   function geoFindMe() {
+//     const status = document.querySelector("#status");
+//     const mapLink = document.querySelector("#map-link");
     
-     mapLink.href = "";
-     mapLink.textContent = "";
+//      mapLink.href = "";
+//      mapLink.textContent = "";
     
-    function success(position) {
-    const latitude = position.coords.latitude;
-    const longitude = position.coords.longitude;
+//     function success(position) {
+//     const latitude = position.coords.latitude;
+//     const longitude = position.coords.longitude;
     
-       status.textContent = "";
-       mapLink.href = `https://www.openstreetmap.org/#map=18/${latitude}/${longitude}`;
-       mapLink.textContent = `Latitude: ${latitude} °, Longitude: ${longitude} °`;
-    }
+//        status.textContent = "";
+//        mapLink.href = `https://www.openstreetmap.org/#map=18/${latitude}/${longitude}`;
+//        mapLink.textContent = `Latitude: ${latitude} °, Longitude: ${longitude} °`;
+//     }
     
-    function error() {
-       status.textContent = "Unable to retrieve your location";
-    }
+//     function error() {
+//        status.textContent = "Unable to retrieve your location";
+//     }
     
-    if (!navigator.geolocation) {
-        status.textContent = "Geolocation is not supported by your browser";
-    } else {
-       status.textContent = "Locating…";
-       navigator.geolocation.getCurrentPosition(success, error);
-    }
-      navigator.geolocation.getCurrentPosition(console.log)
-    }
+//     if (!navigator.geolocation) {
+//         status.textContent = "Geolocation is not supported by your browser";
+//     } else {
+//        status.textContent = "Locating…";
+//        navigator.geolocation.getCurrentPosition(success, error);
+//     }
+//       navigator.geolocation.getCurrentPosition(console.log)
+//     }
     
-    document.querySelector("#find-me").addEventListener("click", geoFindMe);
+//     document.querySelector("#find-me").addEventListener("click", geoFindMe);
 
+    document.addEventListener('DOMContentLoaded', function () {
+      window.addEventListener('scroll', function () {
+          var header = document.getElementById('header');
+  
+          if (window.scrollY > 50) {
+              header.classList.add('sticky');
+          } else {
+              header.classList.remove('sticky');
+          }
+      });
+  });
+  
