@@ -3,6 +3,186 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+}
+
+body {
+    background: #086910;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Header styles */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #086910; 
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.header h1 {
+    margin: 0;
+    color: white;
+}
+
+/* Navigation styles */
+.Name {
+    color: white;
+    font-size: 2.5em;
+    cursor: default;
+    margin-top: 0.05%;
+}
+
+.navigator a {
+    color: #f1f1f1;
+    padding: 6px 15px;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 30px;
+}
+
+.navigator a:hover,
+.navigator a.active {
+    background: white;
+    color: #086910;
+}
+
+.navigator {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end; 
+}
+
+/* Picture section styles */
+.Picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+    position: relative;
+}
+
+.Picture img {
+    width: 100%;
+    height: auto;
+}
+
+/* Section styles */
+.sec {
+    padding: 100px 2%;
+    background: #086910;
+    color: white;
+    font-size: 1rem;
+    
+}
+
+.sec h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.sec p {
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+/* Footer styles */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    
+    width: 100%;
+    background-color: white;
+    color: #086910;
+    text-align: center;
+}
+
+/* Social media icons */
+.fa {
+    padding: 10px;
+    font-size: 10px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+    background: #881261;
+    color: white;
+    padding-right: 2rem;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+/* Responsive layout */
+@media screen and (max-width: 600px) {
+    .header {
+        padding: 20px 5%;
+    }
+
+    .Name {
+        font-size: 2em;
+        text-align: center; 
+        margin-top: 10px; 
+    }
+
+    .navigator a {
+        padding: 6px 10px;
+        margin-top: 10px; 
+    }
+
+    .navigator {
+        align-items: center;
+    }
+
+    .Picture {
+        height: 70vh;
+    }
+
+    .sec {
+        padding: 48px 5%;
+    }
+
+    .sec h1 {
+        font-size: 1rem;
+    }
+
+    .sec p {
+        font-size: 1em;
+    }
+
+    .fa {
+        font-size: 30px;
+        padding: 10px;
+    }
+}
+/* Reset and global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
 }
 
