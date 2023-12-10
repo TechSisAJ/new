@@ -1,180 +1,92 @@
-/* Reset and global styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif; 
-}
+ <!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="capstone.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+<script src="capston.js"></script>
 
-body {
-    background: #086910;
-    height: 100vh;
-    width: 100vw;
-}
-
-/* Header styles */
-.header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #086910; 
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 1000;
-}
-
-.header h1 {
-    margin: 0;
-    color: white;
-}
-
-/* Navigation styles */
-.Name {
-    color: white;
-    font-size: 2.5em;
-    cursor: default;
-    margin-top: 0.05%;
-}
-
-.navigator a {
-    color: #f1f1f1;
-    padding: 6px 15px;
-    text-decoration: none;
-    font-weight: 600;
-    border-radius: 30px;
-}
-
-.navigator a:hover,
-.navigator a.active {
-    background: white;
-    color: #086910;
-}
-
-.navigator {
-    display: flex;
-    flex-direction: column; 
-    align-items: flex-end; 
-}
-
-/* Picture section styles */
-.Picture {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    color: white;
-    position: relative;
-}
-
-.Picture img {
-    width: 100%;
-    height: auto;
-}
-
-/* Section styles */
-.sec {
-    padding: 100px 2%;
-    background: #086910;
-    color: white;
-    font-size: 1rem;
+<html>
+ <!--head starts here-->
+     
+        <!--bold makes everything in it bold-->
+    </head><body><h1></h1>
+        <title>
+        CAPSTONE PROJECT
+        </title>
+       
+     <!--head ends here-->
+     <body>
+        <div class="header" id="header">
+            <h1 class="Name">IMOTOTO.INC</h1>
+            <nav class="navigator">
+                <b>
+                    <a href="index.html" class="active">Home</a>
+                    <a href="Our Services.html">Our Services</a>
+                    <a href="service area.html">Service Area</a>
+                    <a href="contact us.html">Contact Us</a>
+                </b>
+            </nav>
+        </div>
     
-}
+        
+        <section class="Picture">
+            <img src="Imototo.jpg" width="300" height="200">
 
-.sec h1 {
-    font-size: 3em;
-    margin-bottom: 10px;
-}
+        </section>
+        <section class="sec">
+            
+            <h1>WHAT IS IMOTOTO ALL ABOUT?</h1>
+            <p>
+                IMOTOTO is a forward thinking environmental service provider established in 2023 by a couple of youths whose zeal is to make waste disposal quite easy,less strenuous and to reduce the number of Dumpsites in Ekiti State thereby, preventing all forms of pollution and drastically reducing the amounts of blocked drainage system.<br><br>
+                We has presence in the entire waste management vertical from collection, solid and hazardous waste landfill management, transfer, recycling and resource recovery to disposal..The Team is equipped with the expertise and resources required to provide long-term solutions to the waste management challenges in Ekiti State.
+               
+            </p>
 
-.sec p {
-    font-size: 1rem;
-    font-weight: 300;
-    margin-bottom: 1rem;
-}
+            <h1>WHAT DO WE DO?</h1>
+            <p class="residential">
+            
+                <img src="./residential.jpeg" alt="" width="100%" id = "img1">  <br><br>
+                <b>✅Residential / Commercial Services</b> <br><br>
+             Our company provides prompt and effective waste collection and disposal services to residential apartments, hotels, restaurants, banks, lock-up shops and offices in Ado Ekiti and other towns in Ekiti State.
+            </p>
+            <br><br>
+           
+            <p class="recycling">
 
-/* Footer styles */
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
+                <img src="./recycling.jpeg" alt="img2" width="100%" id="img2">  <br><br>
+                <b>✅Recycling</b><br><br>
+                IMOTOTO is currently investing in recyclable materials such as Plastic, Paper, Card boards, Steel, Aluminum, Drink Cans and Food wastes from EKSWMA Waste Transfer Station facility and you get a discount each time you recycle with us when next you need to dump your waste at IMOTOTO.
+                The long term focus of our recycling initiatives is aimed at leading the global way in the 3 R’s: Reduce, Reuse, Recycle. 
+            </p>
+        
+        
+            <p>
+                      
+                    <img src="./construction.png" alt="img2" width="100%" id="img3">  <br><br>
+                <b>✅Industrial Services</b> <br><br>
+                We provide waste collection and waste disposal services to industries, construction and demolition sites, shopping malls and markets in towns like Oye, Ikere, Ijero and the State Capital, Ado Ekiti.
+                We make use of specialized modern waste collection equipment such as Roll-On-Roll-Off and Skip-Bin for collection and disposal of construction/demolition wastes as well as other specialized waste.
+            </p>
+            <br><br>
+        
+            <p>
+                    <img src="./dumpster rental.jpeg" alt="img2" width="100%" id="img4">  <br><br>
+                <b>✅Dumpster Sales and Rental </b>  <br><br>
+                We also specialize in importation and supply of waste management equipment and trucks to Nigeria. IMOTOTO has imported various trucks and supplied to waste management agencies within and  outside  Ekiti.
+            </p>
+        </section>
+                <!-- Footer -->
+                    
+                    <div class="footer">
+                        <p>
+                            <a href="https://instagram.com/_babynursea_?igshid=NTc4MTIwNjQ2YQ==" class="fa fa-instagram"></a>
+                            <a href="http://twitter.com/babynursea" class="fa fa-twitter"></a>
+                            <a href="https://www.linkedin.com/in/precious-anjorin-17b82420b" class="fa fa-linkedin"></a>
+                        </p>
+                    </div>
+        <script src="capston.js"></script>
+     </body>
+</html>
     
-    width: 100%;
-    background-color: white;
-    color: #086910;
-    text-align: center;
-}
-
-/* Social media icons */
-.fa {
-    padding: 10px;
-    font-size: 10px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin-right: 1rem;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-instagram {
-    background: #881261;
-    color: white;
-    padding-right: 2rem;
-}
-
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-}
-
-.fa-linkedin {
-    background: #007bb5;
-    color: white;
-}
-
-/* Responsive layout */
-@media screen and (max-width: 600px) {
-    .header {
-        padding: 20px 5%;
-    }
-
-    .Name {
-        font-size: 2em;
-        text-align: center; 
-        margin-top: 10px; 
-    }
-
-    .navigator a {
-        padding: 6px 10px;
-        margin-top: 10px; 
-    }
-
-    .navigator {
-        align-items: center;
-    }
-
-    .Picture {
-        height: 70vh;
-    }
-
-    .sec {
-        padding: 48px 5%;
-    }
-
-    .sec h1 {
-        font-size: 1rem;
-    }
-
-    .sec p {
-        font-size: 1em;
-    }
-
-    .fa {
-        font-size: 30px;
-        padding: 10px;
-    }
-}
