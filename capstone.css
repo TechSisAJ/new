@@ -76,29 +76,23 @@ body {
     pointer-events: none;
 
 }
-#portfolio {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 2rem;
-    background-color: #086910;
+
+.sec {
+    padding: 100px 10%;
+    background: #086910;
+    color: white;
 }
 
-.imototo-item {
-    width: 300px;
-    margin: 1rem;
-    text-align: justify;
-    color:  white;
-    background-color:  #086910;;
-    padding: 1rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    
+.sec h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
 }
 
-.imototo-item img {
-    max-width: 100%;
-    height: auto;
+.sec p {
+    font-size: 2em;
+    font-weight: 300;
 }
+
 /* Footer styles */
 .footer {
     position: fixed;
